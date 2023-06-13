@@ -1,5 +1,5 @@
 # jth-fe-gc-ta05-06-2023
-Tarea 05, Flexbox
+Tarea 05, Grid y Flexbox
 
 https://joeltarzan.github.io/jth-fe-gc-ta05-06-2023/Google/
 ![image](https://github.com/JoelTarzan/jth-fe-gc-ta05-06-2023/assets/45524750/433d6ae0-87f9-467d-b64a-a2bcd0a66433)
