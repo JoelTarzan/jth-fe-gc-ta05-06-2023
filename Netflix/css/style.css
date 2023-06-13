@@ -1,0 +1,149 @@
+/* ESTILOS GLOBALES */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ICONOS */
+.material-symbols-outlined {
+    color: white;
+    cursor: pointer;
+}
+
+.bigger-icons {
+    font-size: 2rem !important;
+}
+
+/* NAV / MENU SUPERIOR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(34, 32, 32);
+    height: 5vh;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#logo-netflix {
+    width: 9rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.account-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.main {
+    background-color: #202124;
+    height: 81.9vh;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr 3fr);
+    grid-template-columns: repeat(5, 1fr);
+    padding: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 0.5rem;
+}
+
+.subtitles {
+    grid-column: 1 / 6;
+    display: flex;
+    align-items: end;
+}
+
+.series {
+    border-radius: 0.7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#serie1 {
+    background-image: url(./../img/serie1.jpg);
+}
+
+#serie2 {
+    background-image: url(./../img/serie2.jpg);
+}
+
+#serie3 {
+    background-image: url(./../img/serie3.jpg);
+}
+
+#serie4 {
+    background-image: url(./../img/serie4.jpg);
+}
+
+#serie5 {
+    background-image: url(./../img/serie5.jpg);
+}
+
+#serie6 {
+    background-image: url(./../img/serie6.jpg);
+}
+
+#serie7 {
+    background-image: url(./../img/serie7.jpg);
+}
+
+#serie8 {
+    background-image: url(./../img/serie8.jpg);
+}
+
+#serie9 {
+    background-image: url(./../img/serie9.jpg);
+}
+
+#serie10 {
+    background-image: url(./../img/serie10.jpg);
+}
+
+#serie11 {
+    background-image: url(./../img/serie11.jpg);
+}
+
+#serie12 {
+    background-image: url(./../img/serie12.jpg);
+}
+
+#serie13 {
+    background-image: url(./../img/serie13.jpg);
+}
+
+#serie14 {
+    background-image: url(./../img/serie14.jpg);
+}
+
+#serie15 {
+    background-image: url(./../img/serie15.jpg);
+}
